@@ -1,0 +1,60 @@
+
+  ul {
+      margin-top:5px;
+    list-style: none;
+  }
+  .image{
+      width:100%;
+      height:auto;
+      }
+  main {
+    margin: 20px;
+    font-size:15px;
+    color:black;
+  }
+  
+  h2 , p {
+    margin-top:20px ;
+    margin-bottom:30px;
+    text-align: center;
+    
+  }
+  .product-listing {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  button {
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(65, 57, 61);;
+  }
+  .phone-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .phone-button:hover {
+    background-color: #555;
+  }
+  .email-button {
+    display: inline-block;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;  
+}
